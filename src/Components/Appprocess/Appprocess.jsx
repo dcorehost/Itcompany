@@ -12,31 +12,30 @@ export default function AppDevelopmentProcess() {
   ];
 
   return (
-    <section className="py-24 bg-gray-50">
-      <div className="container mx-auto px-6 text-center">
-        <h2 className="text-4xl font-bold mb-16 text-gray-900">
+    <section className="py-24 relative bg-black/70">
+      <div className="container mx-auto px-6 text-center relative z-10">
+        <h2 className="text-4xl font-bold mb-16 text-white">
           Our <span className="text-red-600">App Development Process</span>
         </h2>
 
-      
         <div className="relative flex flex-col md:flex-row md:items-center justify-between">
-          
-          <div className="absolute top-10 left-0 right-0 h-1 bg-gradient-to-r from-red-400 via-red-600 to-red-400 hidden md:block"></div>
+          {/* Gradient connecting line */}
+          <div className="absolute top-10 left-0 right-0 h-1 bg-red-600 hidden md:block"></div>
 
           {steps.map((step, index) => (
             <div key={index} className="flex-1 relative flex flex-col items-center md:items-center z-10">
-              
+              {/* Icon Circle */}
               <div className="w-20 h-20 bg-red-600 text-white rounded-full flex items-center justify-center text-3xl shadow-lg transform transition-transform duration-500 hover:scale-110 mb-4">
                 {step.icon}
               </div>
 
-              
-              <h3 className="text-xl font-bold mb-2 text-gray-900">{step.title}</h3>
-              <p className="text-gray-600 max-w-xs">{step.desc}</p>
+              {/* Step Content */}
+              <h3 className="text-xl font-bold mb-2 text-white">{step.title}</h3>
+              <p className="text-gray-200 max-w-xs">{step.desc}</p>
 
-              
+              {/* Mobile vertical connector */}
               {index !== steps.length - 1 && (
-                <div className="md:hidden w-1 h-12 bg-red-300 mt-4"></div>
+                <div className="md:hidden w-1 h-12 bg-red-400 mt-4"></div>
               )}
             </div>
           ))}

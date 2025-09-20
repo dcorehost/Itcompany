@@ -5,6 +5,8 @@ import AboutUsPage from './Pages/AboutUsPage';
 import AppDevelopment from './Pages/AppDevelopment';
 import WebDevelopment from './Pages/WebDevelopment';
 import WordPressDevelopment from './Pages/WordPressDevelopment';
+import Career from './Pages/Career';
+
 
 const App = () => {
   return (
@@ -14,6 +16,7 @@ const App = () => {
       <Route path="/app-development" element={<AppDevelopment />} />
       <Route path="/web-development" element={<WebDevelopment />} />
       <Route path="/wordpress-development" element={<WordPressDevelopment />} />
+      <Route path="/career" element={<Career />} />
 
       
      
