@@ -7,6 +7,8 @@ import WebDevelopment from './Pages/WebDevelopment';
 import WordPressDevelopment from './Pages/WordPressDevelopment';
 import Privacy from './Pages/Privacy';
 import ContactUs from './Pages/ContactUs';
+import LoginPage from './Pages/LoginPage';
+
 
 const App = () => {
   return (
@@ -19,6 +21,7 @@ const App = () => {
       {/* <Route path="/wordpress-development" element={<WordPressDevelopment />} /> */}
       <Route path='/privacy-policy' element={<Privacy />}/>
       <Route path='/contact-us' element={<ContactUs />}/>
+       <Route  path='/Login-Page' element={<LoginPage />} />
 
       
      

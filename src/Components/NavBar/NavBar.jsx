@@ -50,7 +50,7 @@ const NavBar = () => {
 
         <div className="hidden md:flex items-center space-x-4">
           <Link
-            to="/login"
+            to="/Login-Page"
             className="px-4 py-2 font-medium border border-[#e53935] text-[#e53935] rounded-lg hover:bg-[#e53935] hover:text-[#fff] transition shadow-md"
           >
             Login
@@ -103,7 +103,7 @@ const NavBar = () => {
 
           <div className="flex flex-col space-y-2">
             <Link
-              to="/login"
+              to="/Login-Page"
               className="px-4 py-2 text-center font-medium border border-[#e53935] text-[#e53935] rounded-lg hover:bg-[#e53935] hover:text-[#fff] transition"
             >
               Login

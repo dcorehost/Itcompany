@@ -1,4 +1,5 @@
-import { useState } from 'react';
+// Add this import at the top
+import React, { useState } from 'react';
 
 const Login = () => {
   const [email, setEmail] = useState('');
