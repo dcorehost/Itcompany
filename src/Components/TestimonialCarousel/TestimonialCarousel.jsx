@@ -39,6 +39,24 @@ const testimonials = [
     content:
       "The best investment we've made this year. Outstanding customer support.",
   },
+  {
+    id: 5,
+    name: "Emma White",
+    role: "CTO",
+    company: "DevSolutions",
+    image: "https://randomuser.me/api/portraits/women/85.jpg",
+    content:
+      "They transformed our idea into a full-fledged, high-performing app. Truly skilled developers.",
+  },
+  {
+    id: 6,
+    name: "Michael Green",
+    role: "Founder",
+    company: "AppWorld",
+    image: "https://randomuser.me/api/portraits/men/75.jpg",
+    content:
+      "Excellent communication and timely delivery. Very satisfied with the final product.",
+  },
 ];
 
 const responsive = {
@@ -50,9 +68,9 @@ const responsive = {
 
 const TestimonialCarousel = () => {
   return (
-    <section className="bg-white py-16 px-6 max-w-7xl mx-auto">
-      <h2 className="text-3xl font-bold text-center text-[#e53935] mb-12">
-        What Our Clients Say
+    <section className="bg-gray-100 py-16 px-6">
+      <h2 className="text-3xl font-bold text-center text-gray-900 mb-12">
+        What Our <span className="text-red-600">Clients Say</span>
       </h2>
       <Carousel
         responsive={responsive}
@@ -69,16 +87,16 @@ const TestimonialCarousel = () => {
         {testimonials.map(({ id, name, role, company, image, content }) => (
           <div
             key={id}
-            className="bg-[#e53935] bg-opacity-10 rounded-lg shadow-lg p-8 text-center max-w-md mx-auto"
+            className="bg-white rounded-2xl shadow-md p-8 text-center max-w-md mx-auto hover:shadow-lg transition duration-500"
           >
-            <p className="text-gray-800 italic mb-6">"{content}"</p>
+            <p className="text-gray-700 italic mb-6">"{content}"</p>
             <img
               src={image}
               alt={name}
-              className="mx-auto rounded-full w-20 h-20 object-cover mb-4 border-4 border-[#e53935]"
+              className="mx-auto rounded-full w-20 h-20 object-cover mb-4 border-2 border-red-600"
             />
-            <h3 className="text-lg font-semibold text-[#e53935]">{name}</h3>
-            <p className="text-gray-600 text-sm">
+            <h3 className="text-lg font-semibold text-red-600">{name}</h3>
+            <p className="text-gray-500 text-sm">
               {role} - {company}
             </p>
           </div>

@@ -1,16 +1,18 @@
 import React from 'react'
 import NavBar from '../Components/NavBar/NavBar';
 import Footer from '../Components/Footer/Footer';
+import Login from '../Components/Login/Login';
 
 
 
 
 
-const TermandCondition= () => {
+const LoginPage= () => {
   return (
     <>
     <div>
         <NavBar />
+         <Login />
         <Footer />
        
       
@@ -20,4 +22,4 @@ const TermandCondition= () => {
   )
 }
 
-export default TermandCondition;
+export default LoginPage;
