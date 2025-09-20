@@ -1,33 +1,34 @@
 import React from "react";
-import serviceImage from "../../assets/webservices.png";
-import { FaLaptopCode, FaGlobe, FaServer, FaPaintBrush, FaTools } from "react-icons/fa";
+import serviceImage from "../../assets/appservice.png"; 
+
+import { FaApple, FaAndroid, FaMobileAlt, FaBuilding, FaTools } from "react-icons/fa";
 
 export default function ServicesWeOffer() {
   const services = [
     { 
-      icon: <FaLaptopCode />, 
-      title: "Custom Website Development", 
-      desc: "We build responsive, high-performance websites tailored to your business needs." 
+      icon: <FaApple />, 
+      title: "iOS App Development", 
+      desc: "Custom iOS applications optimized for performance and user experience." 
     },
     { 
-      icon: <FaGlobe />, 
-      title: "Web Design & UI/UX", 
-      desc: "Modern and user-friendly designs that provide a seamless user experience." 
+      icon: <FaAndroid />, 
+      title: "Android App Development", 
+      desc: "Native Android apps with seamless functionality and smooth UI." 
     },
     { 
-      icon: <FaServer />, 
-      title: "Backend & API Development", 
-      desc: "Secure and scalable backend solutions to power your website and apps." 
+      icon: <FaMobileAlt />, 
+      title: "Hybrid / Cross-Platform Apps", 
+      desc: "React Native & Flutter apps that run on multiple platforms efficiently." 
     },
     { 
-      icon: <FaPaintBrush />, 
-      title: "SEO & Digital Marketing", 
-      desc: "Optimized websites to rank higher on search engines and reach your audience effectively." 
+      icon: <FaBuilding />, 
+      title: "Enterprise App Development", 
+      desc: "Robust enterprise solutions tailored for your organization." 
     },
     { 
       icon: <FaTools />, 
       title: "Maintenance & Support", 
-      desc: "Ongoing updates, bug fixes, and technical support to keep your website running smoothly." 
+      desc: "Ongoing updates, bug fixes, and support to keep your app running smoothly." 
     },
   ];
 
@@ -35,7 +36,7 @@ export default function ServicesWeOffer() {
     <section className="pb-32 bg-gray-50">
       <div className="container mx-auto px-6 flex flex-col lg:flex-row items-center gap-12">
         
-        {/* Services List */}
+        
         <div className="flex-1">
           <h2 className="text-4xl font-bold mb-12 text-gray-900">
             Services <span className="text-red-600">We Offer</span>
@@ -55,12 +56,12 @@ export default function ServicesWeOffer() {
           </div>
         </div>
 
-        {/* Image */}
+      
         <div className="flex-1 flex justify-center">
           <img 
             src={serviceImage} 
             alt="Our Services" 
-            className="rounded-2xl max-w-full h-[90%] object-cover"
+            className="rounded-2xl  max-w-full h-auto object-cover"
           />
         </div>
 

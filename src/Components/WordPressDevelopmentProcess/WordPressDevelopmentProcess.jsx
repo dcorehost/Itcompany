@@ -1,48 +1,49 @@
 import React from "react";
 import { FaClipboardList, FaPenNib, FaCode, FaBug, FaRocket, FaSyncAlt } from "react-icons/fa";
 
-export default function WebDevelopmentProcess() {
+export default function WordPressDevelopmentProcess() {
   const steps = [
     { 
       icon: <FaClipboardList />, 
       title: "Requirement Analysis", 
-      desc: "Understand client goals, define website scope, and plan project milestones." 
+      desc: "Understand client goals, define WordPress website scope, and plan project milestones." 
     },
     { 
       icon: <FaPenNib />, 
       title: "UI/UX Design", 
-      desc: "Design intuitive, engaging, and responsive interfaces with a focus on user experience." 
+      desc: "Design intuitive, engaging, and responsive WordPress interfaces with a focus on user experience." 
     },
     { 
       icon: <FaCode />, 
       title: "Development", 
-      desc: "Write clean, scalable, and maintainable code using modern web technologies." 
+      desc: "Develop custom WordPress themes, plugins, and features with clean and maintainable code." 
     },
     { 
       icon: <FaBug />, 
       title: "Testing & QA", 
-      desc: "Perform rigorous testing to ensure website functionality, performance, and security." 
+      desc: "Perform rigorous testing to ensure your WordPress site functions correctly and is secure." 
     },
     { 
       icon: <FaRocket />, 
       title: "Deployment", 
-      desc: "Launch the website with proper optimization and configure hosting or servers." 
+      desc: "Launch the WordPress website with proper optimization and configure hosting and domains." 
     },
     { 
       icon: <FaSyncAlt />, 
       title: "Maintenance & Updates", 
-      desc: "Provide ongoing maintenance, updates, and support to keep the website running smoothly." 
+      desc: "Provide ongoing maintenance, updates, backups, and support to keep your WordPress site running smoothly." 
     },
   ];
 
   return (
     <section className="py-24 bg-gradient-to-b from-gray-100 via-white to-gray-100 relative overflow-hidden">
+      {/* Decorative background shapes */}
       <div className="absolute top-0 left-0 w-64 h-64 bg-red-100 rounded-full filter blur-3xl opacity-30 -translate-x-32 -translate-y-32"></div>
       <div className="absolute bottom-0 right-0 w-72 h-72 bg-red-200 rounded-full filter blur-3xl opacity-20 translate-x-32 translate-y-32"></div>
 
       <div className="container mx-auto px-6 text-center relative z-10">
         <h2 className="text-4xl font-bold mb-16 text-gray-900">
-          Our <span className="text-red-600">Web Development Process</span>
+          Our <span className="text-red-600">WordPress Development Process</span>
         </h2>
 
         <div className="relative flex flex-col md:flex-row md:items-center justify-between">

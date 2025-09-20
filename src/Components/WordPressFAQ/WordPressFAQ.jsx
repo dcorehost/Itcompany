@@ -2,27 +2,27 @@ import React, { useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import { ChevronDown } from "lucide-react";
 
-export default function WebDevelopmentFAQ() {
+export default function WordPressFAQ() {
   const faqs = [
     {
-      q: "What web development services do you offer?",
-      a: "We provide frontend, backend, fullstack development, API integration, and performance optimization for web applications and websites.",
+      q: "What WordPress services do you offer?",
+      a: "We provide custom WordPress theme and plugin development, website migration, performance optimization, and full website management.",
     },
     {
-      q: "Can you build responsive websites?",
-      a: "Absolutely. We ensure all websites are fully responsive and look great on desktops, tablets, and mobile devices.",
+      q: "Can you create responsive WordPress websites?",
+      a: "Absolutely. All WordPress sites we build are fully responsive and look great on desktops, tablets, and mobile devices.",
     },
     {
-      q: "Do you offer e-commerce development?",
-      a: "Yes. We specialize in creating secure, scalable, and user-friendly e-commerce platforms with payment integration.",
+      q: "Do you offer e-commerce WordPress development?",
+      a: "Yes. We specialize in creating secure, scalable, and user-friendly WooCommerce platforms with payment integration.",
     },
     {
-      q: "Can you optimize website performance?",
-      a: "We improve loading speed, enhance SEO, and implement best practices to ensure your website performs efficiently.",
+      q: "Can you optimize my WordPress site's performance?",
+      a: "We improve loading speed, implement caching, optimize databases, and follow best practices to ensure fast and efficient WordPress sites.",
     },
     {
-      q: "Do you provide API integration services?",
-      a: "Yes. We integrate third-party APIs, develop custom APIs, and ensure seamless communication between frontend and backend systems.",
+      q: "Do you provide ongoing maintenance and support?",
+      a: "Yes. We offer updates, backups, security monitoring, and technical support to keep your WordPress site running smoothly.",
     },
   ];
 
@@ -46,7 +46,7 @@ export default function WebDevelopmentFAQ() {
           whileInView={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.6 }}
         >
-          Frequently Asked <span className="text-red-600">Web Development Questions</span>
+          Frequently Asked <span className="text-red-600">WordPress Questions</span>
         </motion.h2>
 
         <motion.p
@@ -55,7 +55,7 @@ export default function WebDevelopmentFAQ() {
           whileInView={{ opacity: 1 }}
           transition={{ delay: 0.2, duration: 0.6 }}
         >
-          Everything you need to know about our web development services.
+          Everything you need to know about our WordPress services.
         </motion.p>
 
         <div className="space-y-4">

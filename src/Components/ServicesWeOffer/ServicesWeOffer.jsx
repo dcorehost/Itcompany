@@ -1,41 +1,40 @@
 import React from "react";
-import serviceImage from "../../assets/webservices.png";
-import { FaLaptopCode, FaGlobe, FaServer, FaPaintBrush, FaTools } from "react-icons/fa";
+import serviceImage from "../../assets/wordpress.png"; // Make sure this file exists
+
+import { FaWordpressSimple, FaPaintBrush, FaServer, FaSearch, FaTools } from "react-icons/fa";
 
 export default function ServicesWeOffer() {
   const services = [
     { 
-      icon: <FaLaptopCode />, 
-      title: "Custom Website Development", 
-      desc: "We build responsive, high-performance websites tailored to your business needs." 
-    },
-    { 
-      icon: <FaGlobe />, 
-      title: "Web Design & UI/UX", 
-      desc: "Modern and user-friendly designs that provide a seamless user experience." 
-    },
-    { 
-      icon: <FaServer />, 
-      title: "Backend & API Development", 
-      desc: "Secure and scalable backend solutions to power your website and apps." 
+      icon: <FaWordpressSimple />, 
+      title: "Custom WordPress Development", 
+      desc: "We build fully customized WordPress websites tailored to your business needs, ensuring flexibility, scalability, and performance." 
     },
     { 
       icon: <FaPaintBrush />, 
-      title: "SEO & Digital Marketing", 
-      desc: "Optimized websites to rank higher on search engines and reach your audience effectively." 
+      title: "WordPress Design & UI/UX", 
+      desc: "Modern and user-friendly WordPress designs that provide an intuitive experience and engage your audience effectively." 
+    },
+    { 
+      icon: <FaServer />, 
+      title: "Plugin & Backend Development", 
+      desc: "Custom plugins and backend solutions to extend WordPress functionality and integrate with third-party systems." 
+    },
+    { 
+      icon: <FaSearch />, 
+      title: "SEO Optimization", 
+      desc: "Optimized WordPress sites to rank higher on search engines and improve visibility for your business." 
     },
     { 
       icon: <FaTools />, 
       title: "Maintenance & Support", 
-      desc: "Ongoing updates, bug fixes, and technical support to keep your website running smoothly." 
+      desc: "Ongoing updates, security monitoring, bug fixes, and technical support to keep your WordPress site running smoothly." 
     },
   ];
 
   return (
     <section className="pb-32 bg-gray-50">
       <div className="container mx-auto px-6 flex flex-col lg:flex-row items-center gap-12">
-        
-        {/* Services List */}
         <div className="flex-1">
           <h2 className="text-4xl font-bold mb-12 text-gray-900">
             Services <span className="text-red-600">We Offer</span>
@@ -55,15 +54,13 @@ export default function ServicesWeOffer() {
           </div>
         </div>
 
-        {/* Image */}
         <div className="flex-1 flex justify-center">
           <img 
             src={serviceImage} 
             alt="Our Services" 
-            className="rounded-2xl max-w-full h-[90%] object-cover"
+            className="rounded-2xl max-w-full h-auto object-cover"
           />
         </div>
-
       </div>
     </section>
   );

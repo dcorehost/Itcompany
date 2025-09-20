@@ -1,7 +1,7 @@
 import React from "react";
 import appbanner from "../../assets/webservice.png";
 
-export default function WebdevBanner() {
+export default function WordpressBanner() {
   return (
     <section
       className="relative bg-cover bg-center bg-no-repeat"
@@ -11,10 +11,10 @@ export default function WebdevBanner() {
 
       <div className="relative z-10 container mx-auto px-6 lg:px-16 py-35 flex flex-col items-center text-center text-white">
         <h1 className="text-4xl lg:text-5xl font-bold leading-tight mb-6 drop-shadow-lg">
-          Build <span className="text-red-500">Modern Websites</span> for Your Business
+          Build <span className="text-red-500">Professional WordPress Websites</span> for Your Business
         </h1>
         <p className="text-lg text-white-200 mb-8 max-w-2xl drop-shadow-md">
-          We create responsive, fast, and SEO-friendly websites that drive engagement and grow your online presence.
+          We develop responsive, SEO-friendly, and customizable WordPress websites that help you engage users and grow your online presence efficiently.
         </p>
         <div className="flex flex-wrap justify-center gap-4">
           <button className="px-6 py-3 bg-white text-red-600 font-semibold rounded-xl shadow hover:bg-gray-100 transition">
