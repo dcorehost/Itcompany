@@ -8,6 +8,7 @@ import OurServices from '../Components/OurServices/OurServices';
 import OurClients from '../Components/OurClients/OurClients';
 import TestimonialCarousel from '../Components/TestimonialCarousel/TestimonialCarousel';
 import AboutFAQ from '../Components/AboutFAQ/AboutFAQ';
+import CTASection from '../Components/Ctabutton/Ctabutton';
 
 
 
@@ -23,6 +24,7 @@ const AboutUsPage= () => {
         <OurServices />
         <TestimonialCarousel />
         <AboutFAQ />
+        <CTASection />
         <Footer />
        
       

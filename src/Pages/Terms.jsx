@@ -1,20 +1,23 @@
 import React from 'react'
 import NavBar from '../Components/NavBar/NavBar';
 import Footer from '../Components/Footer/Footer';
-import PrivacyPolicy from '../Components/PrivacyPolicy/PrivacyPolicy';
+import TermsAndConditions from '../Components/TermsAndConditions/TermsAndConditions';
 import CTASection from '../Components/Ctabutton/Ctabutton';
 
 
 
 
 
-const Privacy= () => {
+
+const Terms = () => {
   return (
     <>
     <div>
         <NavBar />
-        <PrivacyPolicy />
+        <TermsAndConditions />
         <CTASection />
+        
+       
         <Footer />
        
       
@@ -24,4 +27,4 @@ const Privacy= () => {
   )
 }
 
-export default Privacy;
+export default Terms;

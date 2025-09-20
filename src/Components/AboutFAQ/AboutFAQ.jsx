@@ -132,12 +132,14 @@ const AboutFAQ = () => {
           <h2 className="text-2xl font-bold mb-4">Still have questions?</h2>
           <p className="mb-6 max-w-2xl mx-auto">We're here to help! Contact our team for more information about our services and how we can assist with your project.</p>
           <div className="flex flex-col sm:flex-row justify-center gap-4">
-            <button className="bg-white text-red-600 font-semibold px-6 py-3 rounded-lg hover:bg-red-50 transition-colors">
-              Contact Us
-            </button>
-            <button className="bg-transparent border border-white text-white font-semibold px-6 py-3 rounded-lg hover:bg-red-700 transition-colors">
+            <a href="/contact-us" className="inline-block">
+  <button className="bg-white text-red-600 font-semibold px-6 py-3 rounded-lg hover:bg-red-50 transition-colors">
+    Contact Us
+  </button>
+</a>
+            {/* <button className="bg-transparent border border-white text-white font-semibold px-6 py-3 rounded-lg hover:bg-red-700 transition-colors">
               Schedule a Call
-            </button>
+            </button> */}
           </div>
         </div>
       </div>

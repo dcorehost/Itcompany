@@ -16,14 +16,18 @@ export default function WebdevBanner() {
         <p className="text-lg text-white-200 mb-8 max-w-2xl drop-shadow-md">
           We create responsive, fast, and SEO-friendly websites that drive engagement and grow your online presence.
         </p>
-        <div className="flex flex-wrap justify-center gap-4">
-          <button className="px-6 py-3 bg-white text-red-600 font-semibold rounded-xl shadow hover:bg-gray-100 transition">
-            Get a Free Quote
-          </button>
-          <button className="px-6 py-3 border border-white font-semibold rounded-xl hover:bg-white/10 transition">
-            Our Portfolio
-          </button>
-        </div>
+         <div className="flex flex-wrap justify-center gap-4">
+  <a href="/contact-us" className="inline-block">
+    <button className="px-6 py-3 bg-white text-red-600 font-semibold rounded-xl shadow hover:bg-gray-100 transition">
+      Get a Free Quote
+    </button>
+  </a>
+  <a href="/about-us" className="inline-block">
+    <button className="px-6 py-3 border border-white font-semibold rounded-xl hover:bg-white/10 transition">
+      Our Portfolio
+    </button>
+  </a>
+</div>
       </div>
     </section>
   );

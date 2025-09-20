@@ -79,7 +79,7 @@ const Footer = () => {
         <div className="flex flex-wrap justify-center md:justify-end space-x-4 text-white/80 mt-2 md:mt-0">
           <a href="/privacy-policy" className="hover:text-red-500">Privacy Policy</a>
           <span>|</span>
-          <a href="/term-and-condition" className="hover:text-red-500">Terms & Conditions</a>
+          <a href="/terms-condition" className="hover:text-red-500">Terms & Conditions</a>
         </div>
       </div>
     </footer>

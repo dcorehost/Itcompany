@@ -12,13 +12,13 @@ export default function CTASection() {
         </p>
         <div className="flex justify-center gap-6 flex-wrap">
           <a
-            href="#contact"
+            href="/contact-us"
             className="px-8 py-4 bg-red-600 text-white font-semibold rounded-full shadow-lg hover:bg-red-700 transition duration-300"
           >
             Get a Free Quote
           </a>
           <a
-            href="#portfolio"
+            href="/about-us"
             className="px-8 py-4 border border-red-600 text-red-600 font-semibold rounded-full hover:bg-red-50 transition duration-300"
           >
             View Our Portfolio

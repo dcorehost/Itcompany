@@ -7,6 +7,7 @@ import WebDevCatogories from '../Components/WebDevCatogories/WebDevCatogories';
 import WebDevelopmentServices from '../Components/WebDevelopmentServices/WebDevelopmentServices';
 import WebDevelopmentFAQ from '../Components/WebDevelopmentFAQ/WebDevelopmentFAQ';
 import WhyChooseUsWeb from '../Components/WhyChooseUsWeb/WhyChooseUsWeb';
+import CTASection from '../Components/Ctabutton/Ctabutton';
 
 
 
@@ -24,6 +25,7 @@ const WebDevelopment= () => {
         <WebDevCatogories />
         <WebDevelopmentServices />
         <WebDevelopmentFAQ />
+        <CTASection />
         <Footer />
        
       

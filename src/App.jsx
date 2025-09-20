@@ -9,6 +9,7 @@ import Privacy from './Pages/Privacy';
 import ContactUs from './Pages/ContactUs';
 import LoginPage from './Pages/LoginPage';
 import Career from './Pages/Career';
+import Terms from './Pages/Terms';
 
 
 const App = () => {
@@ -19,11 +20,13 @@ const App = () => {
       <Route path="/app-development" element={<AppDevelopment />} />
       <Route path="/web-development" element={<WebDevelopment />} />
       <Route path="/wordpress-development" element={<WordPressDevelopment />} />
-      {/* <Route path="/wordpress-development" element={<WordPressDevelopment />} /> */}
+      
       <Route path='/privacy-policy' element={<Privacy />}/>
       <Route path='/contact-us' element={<ContactUs />}/>
-       <Route  path='/Login-Page' element={<LoginPage />} />
+       <Route  path='/login' element={<LoginPage />} />
       <Route path="/career" element={<Career />} />
+      <Route path="/terms-condition" element={<Terms />} />
+   
 
       
      

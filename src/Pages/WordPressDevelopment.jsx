@@ -6,6 +6,7 @@ import WhyChooseUsWordpress from '../Components/WhyChooseUsWordpress/WhyChooseUs
 import ServicesWeOffer from '../Components/ServicesWeOffer/ServicesWeOffer';
 import WordPressDevelopmentProcess from '../Components/WordPressDevelopmentProcess/WordPressDevelopmentProcess';
 import WordPressFAQ from '../Components/WordPressFAQ/WordPressFAQ';
+import CTASection from '../Components/Ctabutton/Ctabutton';
 
 
 
@@ -22,6 +23,7 @@ const WordPressDevelopment= () => {
         <ServicesWeOffer />
         <WordPressDevelopmentProcess />
         <WordPressFAQ />
+        <CTASection />
       
         <Footer />
        

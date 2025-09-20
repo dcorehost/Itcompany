@@ -10,6 +10,7 @@ import OurClients from '../Components/OurClients/OurClients';
 import HomeFaq from '../Components/HomeFaq/HomeFaq';
 import WhyChooseUsHome from '../Components/WhyChooseUsHome/WhyChoseUsHome';
 import HomeBlog from '../Components/HomeBlog/HomeBlog';
+import CTASection from '../Components/Ctabutton/Ctabutton';
 
 
 
@@ -30,6 +31,7 @@ const HomePage = () => {
         <HomeBlog />
         <TestimonialCarousel />
         <HomeFaq />
+        <CTASection />
         <Footer />
        
       
