@@ -37,7 +37,7 @@ export default function WordPressDevelopmentProcess() {
 
   return (
     <section className="py-24 bg-gradient-to-b from-gray-100 via-white to-gray-100 relative overflow-hidden">
-      {/* Decorative background shapes */}
+  
       <div className="absolute top-0 left-0 w-64 h-64 bg-red-100 rounded-full filter blur-3xl opacity-30 -translate-x-32 -translate-y-32"></div>
       <div className="absolute bottom-0 right-0 w-72 h-72 bg-red-200 rounded-full filter blur-3xl opacity-20 translate-x-32 translate-y-32"></div>
 

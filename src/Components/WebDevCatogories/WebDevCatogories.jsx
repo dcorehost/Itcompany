@@ -35,7 +35,7 @@ export default function ServicesWeOffer() {
     <section className="pb-32 bg-gray-50">
       <div className="container mx-auto px-6 flex flex-col lg:flex-row items-center gap-12">
         
-        {/* Services List */}
+       
         <div className="flex-1">
           <h2 className="text-4xl font-bold mb-12 text-gray-900">
             Services <span className="text-red-600">We Offer</span>
@@ -55,7 +55,7 @@ export default function ServicesWeOffer() {
           </div>
         </div>
 
-        {/* Image */}
+        
         <div className="flex-1 flex justify-center">
           <img 
             src={serviceImage} 

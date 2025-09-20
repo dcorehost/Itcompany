@@ -5,7 +5,7 @@ import HomeBanner from '../Components/HomeBanner/HomeBanner';
 import TestimonialCarousel from '../Components/TestimonialCarousel/TestimonialCarousel';
 import OurServices from '../Components/OurServices/OurServices';
 import AboutSection from '../Components/AboutSection/AboutSection';
-import WhyChooseUs from '../Components/WhyChooseUs/WhyChooseUs';
+
 import OurClients from '../Components/OurClients/OurClients';
 
 
@@ -19,7 +19,7 @@ const HomePage = () => {
         <NavBar />
         <HomeBanner />
         <AboutSection />
-        <WhyChooseUs />
+        
         <OurClients />
         <OurServices />
         <TestimonialCarousel />
