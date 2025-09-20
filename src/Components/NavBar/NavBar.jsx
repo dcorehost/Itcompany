@@ -40,14 +40,17 @@ const NavBar = () => {
               </div>
             )}
           </div>
-          <Link to="/career" className="text-[#e53935] hover:text-[#fff] hover:bg-[#e53935] px-2 py-1 rounded transition">Careers</Link>
-          <Link to="/blog" className="text-[#e53935] hover:text-[#fff] hover:bg-[#e53935] px-2 py-1 rounded transition">Blog</Link>
-          <Link to="/contact-us" className="text-[#e53935] hover:text-[#fff] hover:bg-[#e53935] px-2 py-1 rounded transition">Contact</Link>
+
+          
+        
+
+          <Link to="/blog" className="text-[#214486] hover:text-[#77c230] transition">Blog</Link>
+          <Link to="/contact-us" className="text-[#214486] hover:text-[#77c230] transition">Contact</Link>
         </div>
 
         <div className="hidden md:flex items-center space-x-4">
           <Link
-            to="/login"
+            to="/Login-Page"
             className="px-4 py-2 font-medium border border-[#e53935] text-[#e53935] rounded-lg hover:bg-[#e53935] hover:text-[#fff] transition shadow-md"
           >
             Login
@@ -76,12 +79,31 @@ const NavBar = () => {
               <a href="/wordpress-development" className="block text-[#e53935] hover:bg-[#fce4ec] px-2 py-1 rounded">WordPress Development</a>
             </div>
           </details>
-          <Link to="/career" className="block text-[#e53935] hover:text-[#fff] hover:bg-[#e53935] px-2 py-1 rounded transition">Careers</Link>
-          <Link to="/blog" className="block text-[#e53935] hover:text-[#fff] hover:bg-[#e53935] px-2 py-1 rounded transition">Blog</Link>
-          <Link to="/contact-us" className="block text-[#e53935] hover:text-[#fff] hover:bg-[#e53935] px-2 py-1 rounded transition">Contact</Link>
+
+          <details className="group">
+            <summary className="flex items-center justify-between cursor-pointer text-[#214486] hover:text-[#77c230]">
+              Categories <ChevronDown className="w-4 h-4" />
+            </summary>
+            <div className="ml-4 mt-2 space-y-2">
+              <a href="/automotive" className="block text-gray-700">Automotive</a>
+              <a href="/telecommunications" className="block text-gray-700">Telecommunications</a>
+              <a href="/banking" className="block text-gray-700">Banking</a>
+              <a href="/healthcareIt" className="block text-gray-700">HealthcareIT</a>
+              <a href="/logistics" className="block text-gray-700">Logistics</a>
+              <a href="/technology" className="block text-gray-700">Technology</a>
+              <a href="/energy-utilities" className="block text-gray-700">Energy & Utilities</a>
+              <a href="/retail" className="block text-gray-700">Retail</a>
+              <a href="/oil-and-gas" className="block text-gray-700">Oil & Gas</a>
+              <a href="/marketing" className="block text-gray-700">Marketing</a>
+            </div>
+          </details>
+          
+          <Link to="/blog" className="block text-[#214486] hover:text-[#77c230]">Blog</Link>
+          <Link to="/contatc-us" className="block text-[#214486] hover:text-[#77c230]">Contact</Link>
+
           <div className="flex flex-col space-y-2">
             <Link
-              to="/login"
+              to="/Login-Page"
               className="px-4 py-2 text-center font-medium border border-[#e53935] text-[#e53935] rounded-lg hover:bg-[#e53935] hover:text-[#fff] transition"
             >
               Login
