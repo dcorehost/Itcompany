@@ -9,6 +9,7 @@ import AboutSection from '../Components/AboutSection/AboutSection';
 import OurClients from '../Components/OurClients/OurClients';
 import HomeFaq from '../Components/HomeFaq/HomeFaq';
 import WhyChooseUsHome from '../Components/WhyChooseUsHome/WhyChoseUsHome';
+import HomeBlog from '../Components/HomeBlog/HomeBlog';
 
 
 
@@ -26,6 +27,7 @@ const HomePage = () => {
         
         <OurClients />
         <OurServices />
+        <HomeBlog />
         <TestimonialCarousel />
         <HomeFaq />
         <Footer />
