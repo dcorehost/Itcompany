@@ -11,13 +11,15 @@ const NavBar = () => {
   return (
     <nav className="bg-[#fff] shadow-md fixed w-full top-0 left-0 z-50">
       <div className="max-w-7xl mx-auto px-6 flex items-center justify-between h-16">
-        <div className="flex items-center flex-shrink-0">
-          <img
-            src={npllogo}
-            alt="NLP Global Tech Logo"
-            className="h-14 w-auto object-contain"
-          />
-        </div>
+       <div className="flex items-center flex-shrink-0">
+  <a href="/" target="_blank" rel="noopener noreferrer">
+    <img
+      src={npllogo}
+      alt="NLP Global Tech Logo"
+      className="h-14 w-auto object-contain"
+    />
+  </a>
+</div>
 
         <div className="hidden md:flex items-center space-x-8 font-medium">
           <Link to="/" className="text-[#e53935] hover:text-[#fff] hover:bg-[#e53935] px-2 py-1 rounded transition">Home</Link>
