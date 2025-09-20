@@ -34,7 +34,7 @@ const reasons = [
   },
 ];
 
-const WhyChooseUs = () => {
+const WhyChooseUsHome = () => {
   return (
     <section
       className="relative w-full py-20 px-6"
@@ -108,4 +108,4 @@ const WhyChooseUs = () => {
   );
 };
 
-export default WhyChooseUs;
+export default WhyChooseUsHome;

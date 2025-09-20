@@ -5,9 +5,10 @@ import HomeBanner from '../Components/HomeBanner/HomeBanner';
 import TestimonialCarousel from '../Components/TestimonialCarousel/TestimonialCarousel';
 import OurServices from '../Components/OurServices/OurServices';
 import AboutSection from '../Components/AboutSection/AboutSection';
-import WhyChooseUs from '../Components/WhyChooseUs/WhyChooseUs';
+
 import OurClients from '../Components/OurClients/OurClients';
 import HomeFaq from '../Components/HomeFaq/HomeFaq';
+import WhyChooseUsHome from '../Components/WhyChooseUsHome/WhyChoseUsHome';
 
 
 
@@ -20,7 +21,9 @@ const HomePage = () => {
         <NavBar />
         <HomeBanner />
         <AboutSection />
-        <WhyChooseUs />
+        <WhyChooseUsHome />
+       
+        
         <OurClients />
         <OurServices />
         <TestimonialCarousel />
