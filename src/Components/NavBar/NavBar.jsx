@@ -163,31 +163,7 @@ const NavBar = () => {
           </div>
 
           
-          <div className="relative">
-            <button
-              onClick={() => setIsCategoryOpen(!isCategoryOpen)}
-              className="text-[#214486] hover:text-[#77c230] flex items-center gap-1"
-            >
-              Categories
-              <ChevronDown
-                className={`w-4 h-4 transition-transform duration-200 ${isCategoryOpen ? "rotate-180" : ""}`}
-              />
-            </button>
-            {isCategoryOpen && (
-              <div className="absolute left-0 top-12 bg-white shadow-xl rounded-lg w-48 py-2 animate-fadeIn">
-                <a href="/automotive" className="block px-4 py-2 hover:bg-gray-100 text-gray-800">Automotive</a>
-                <a href="/telecommunications" className="block px-4 py-2 hover:bg-gray-100 text-gray-800">Telecommunications</a>
-                <a href="/banking" className="block px-4 py-2 hover:bg-gray-100 text-gray-800">Banking</a>
-                <a href="/healthcareIt" className="block px-4 py-2 hover:bg-gray-100 text-gray-800">HealthcareIT</a>
-                <a href="/logistics" className="block px-4 py-2 hover:bg-gray-100 text-gray-800">Logistics</a>
-                <a href="/technology" className="block px-4 py-2 hover:bg-gray-100 text-gray-800">Technology</a>
-                <a href="/energy-utilities" className="block px-4 py-2 hover:bg-gray-100 text-gray-800">Energy & Utilities</a>
-                <a href="/retail" className="block px-4 py-2 hover:bg-gray-100 text-gray-800">Retail</a>
-                <a href="/oil-and-gas" className="block px-4 py-2 hover:bg-gray-100 text-gray-800">Oil & Gas</a>
-                   <a href="/marketing" className="block px-4 py-2 hover:bg-gray-100 text-gray-800">Marketing</a>
-              </div>
-            )}
-          </div>
+        
 
           <Link to="/blog" className="text-[#214486] hover:text-[#77c230] transition">Blog</Link>
           <Link to="/contact-us" className="text-[#214486] hover:text-[#77c230] transition">Contact</Link>
@@ -242,9 +218,9 @@ const NavBar = () => {
               <a href="/marketing" className="block text-gray-700">Marketing</a>
             </div>
           </details>
-
+          
           <Link to="/blog" className="block text-[#214486] hover:text-[#77c230]">Blog</Link>
-          <Link to="/contact-us" className="block text-[#214486] hover:text-[#77c230]">Contact</Link>
+          <Link to="/contatc-us" className="block text-[#214486] hover:text-[#77c230]">Contact</Link>
 
           <div className="flex flex-col space-y-2">
             <Link
