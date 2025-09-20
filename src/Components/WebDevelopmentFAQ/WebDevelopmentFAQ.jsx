@@ -34,7 +34,7 @@ export default function WebDevelopmentFAQ() {
 
   return (
     <section className="w-full py-20 bg-gray-50 relative overflow-hidden">
-     
+      
       <div className="absolute top-10 left-0 w-80 h-80 bg-red-100 opacity-20 rounded-full blur-3xl"></div>
       <div className="absolute bottom-10 right-0 w-96 h-96 bg-red-100 opacity-20 rounded-full blur-3xl"></div>
       <div className="absolute top-1/2 left-1/2 w-64 h-64 bg-red-50/20 opacity-30 rounded-full blur-2xl -translate-x-1/2 -translate-y-1/2"></div>

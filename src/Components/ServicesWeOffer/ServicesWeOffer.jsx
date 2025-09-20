@@ -1,5 +1,5 @@
 import React from "react";
-import serviceImage from "../../assets/wordpress.png";
+import serviceImage from "../../assets/wordpress.png"; 
 
 import { FaWordpressSimple, FaPaintBrush, FaServer, FaSearch, FaTools } from "react-icons/fa";
 
