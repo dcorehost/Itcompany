@@ -76,7 +76,7 @@ const NavBar = () => {
           </div>
 
           <Link to="/blog" className="text-[#214486] hover:text-[#77c230] transition">Blog</Link>
-          <Link to="/contact-us" className="text-[#214486] hover:text-[#77c230] transition">Contact</Link>
+          <Link to="/Contact-Us" className="text-[#214486] hover:text-[#77c230] transition">Contact</Link>
         </div>
 
         
@@ -143,7 +143,7 @@ const NavBar = () => {
           </details>
 
           <Link to="/blog" className="block text-[#214486] hover:text-[#77c230]">Blog</Link>
-          <Link to="/contact-us" className="block text-[#214486] hover:text-[#77c230]">Contact</Link>
+          <Link to="/Contact-Us" className="block text-[#214486] hover:text-[#77c230]">Contact</Link>
 
           <div className="flex flex-col space-y-2">
             <Link

@@ -4,6 +4,10 @@ import HomePage from './Pages/Homepage';
 import AboutUsPage from './Pages/AboutUsPage';
 import AppDevelopment from './Pages/AppDevelopment';
 import WebDevelopment from './Pages/WebDevelopment';
+import Privacy from './Pages/Privacy';
+import ContactUs from './Pages/ContactUs';
+import Term from './Pages/term';
+
 
 const App = () => {
   return (
@@ -12,7 +16,9 @@ const App = () => {
       <Route path="/about-us" element={<AboutUsPage />} />
       <Route path="/app-development" element={<AppDevelopment />} />
       <Route path="/web-development" element={<WebDevelopment />} />
-
+      <Route path='/Privacy-Policy'  element={<Privacy />}/>
+      <Route path='/Contact-Us' element={<ContactUs />} />
+      <Route path='/terms-and-conditions' element={<Term />}/>
       
      
     </Routes>
