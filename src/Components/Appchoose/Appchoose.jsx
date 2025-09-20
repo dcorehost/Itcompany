@@ -36,7 +36,7 @@ export default function WhyChooseUs() {
   ];
 
   return (
-    <section className="py-36 bg-gray-50"> 
+    <section className="py-30 bg-gray-50"> 
       <div className="container mx-auto px-6 text-center">
         <h2 className="text-4xl font-bold mb-6 text-gray-900">
           Why <span className="text-red-600">Choose Us</span>
