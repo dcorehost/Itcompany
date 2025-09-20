@@ -15,11 +15,11 @@ const ContactBanner = () => (
         alt="IT Solutions"
         className="w-full h-full object-cover object-center"
       />
-      {/* Red and white gradient overlay for a modern, high-contrast look */}
+     
       <div className="absolute inset-0 bg-gradient-to-r from-red-700/60 via-red-500/40 to-white/70"></div>
     </motion.div>
 
-    {/* Red and white animated blobs for a dynamic effect */}
+    
     <motion.div
       className="absolute top-10 left-10 w-36 h-36 bg-red-600 rounded-full mix-blend-multiply filter blur-2xl opacity-30"
       animate={{ y: [0, -20, 0], x: [0, 15, 0] }}

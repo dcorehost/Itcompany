@@ -1,4 +1,4 @@
-// components/TermsAndConditions.jsx
+
 import React from 'react'
 
 const TermsAndConditions = () => {

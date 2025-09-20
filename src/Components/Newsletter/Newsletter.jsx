@@ -5,9 +5,9 @@ const Newsletter = () => {
   return (
     <div className="mt-20 bg-gray-900 py-10 px-8 rounded-xl shadow-2xl max-w-4xl mx-auto grid md:grid-cols-2 gap-8 border border-red-500">
       
-      {/* Left Section with Address + Newsletter */}
+    
       <div>
-        {/* Company Address with Animation */}
+        
         <motion.div
           className="mb-8 text-center md:text-left"
           initial={{ opacity: 0, y: 20 }}
@@ -22,7 +22,7 @@ const Newsletter = () => {
           </p>
         </motion.div>
 
-        {/* Newsletter Section */}
+        
         <h3 className="text-xl font-semibold text-white text-center md:text-left">
           Stay Updated with Our Newsletter
         </h3>
@@ -41,7 +41,7 @@ const Newsletter = () => {
         </form>
       </div>
 
-      {/* Map Section */}
+   
       <motion.div
         className="rounded-xl overflow-hidden shadow-lg h-64 md:h-auto"
         initial={{ scale: 0.9, opacity: 0 }}

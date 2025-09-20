@@ -1,4 +1,4 @@
-// Add this import at the top
+
 import React, { useState } from 'react';
 
 const Login = () => {
@@ -11,7 +11,7 @@ const Login = () => {
     e.preventDefault();
     setIsLoading(true);
     
-    // Simulate API call
+   
     setTimeout(() => {
       console.log('Login attempted with:', { email, password, rememberMe });
       setIsLoading(false);

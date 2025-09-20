@@ -39,7 +39,7 @@ const Contact = () => {
     setStatus({ type: "", message: "" });
 
     try {
-      // Replace with your IT company's backend endpoint for contact forms
+      
       const response = await fetch(
         "https://your-it-company.com/api/contact",
         {
@@ -100,7 +100,7 @@ const Contact = () => {
           animate={{ opacity: 1, y: 0 }}
           transition={{ delay: 0.6, duration: 0.6 }}
         >
-          {/* Form Fields */}
+        
           <div>
             <label className="block text-sm font-medium text-gray-700">Your Name</label>
             <input
@@ -138,7 +138,6 @@ const Contact = () => {
             />
           </div>
 
-          {/* New field: Service selection */}
           <div>
             <label className="block text-sm font-medium text-gray-700">I'm interested in...</label>
             <select
@@ -167,14 +166,14 @@ const Contact = () => {
             ></textarea>
           </div>
 
-          {/* Status Message */}
+          
           {status.message && (
             <p className={`text-center ${status.type === "success" ? "text-red-600" : "text-red-600"}`}>
               {status.message}
             </p>
           )}
 
-          {/* Submit Button */}
+        
           <motion.button
             type="submit"
             className="w-full bg-red-600 hover:bg-red-700 text-white font-semibold py-3 rounded-lg transition-all duration-300 shadow-lg hover:shadow-2xl"
@@ -186,7 +185,7 @@ const Contact = () => {
           </motion.button>
         </motion.form>
 
-        {/* Direct Contact Info */}
+   
         <motion.div
           className="mt-8 text-center"
           initial={{ opacity: 0 }}
